@@ -1,0 +1,70 @@
+==========================================================================================
+  STUDENT RECORD REPORT  –  Generated: March 08, 2026 at 22:32:33
+==========================================================================================
+
+──────────────────────────────────────────────────────────────────────────────────────────
+  ALL VALID STUDENTS
+──────────────────────────────────────────────────────────────────────────────────────────
+  S001 | Alice Johnson        | Avg:  86.2 | PASS | Fine: $ 10.00 | math: 85, science: 90, english: 78, history: 92
+  S002 | Bob Smith            | Avg:  43.8 | FAIL | Fine: $ 70.00 | math: 45, science: 38, english: 50, history: 42
+  S003 | Charlie Brown        | Avg:  71.8 | PASS | Fine: $  5.00 | math: 72, science: 65, english: 80, history: 70
+  S004 | Diana Prince         | Avg:  32.5 | FAIL | Fine: $ 35.00 | math: 30, science: 25, english: 40, history: 35
+  S005 | Eve Davis            | Avg:  93.0 | PASS | Fine: $  0.00 | math: 95, science: 88, english: 92, history: 97
+  S006 | Frank Castle         | Avg:  56.2 | FAIL | Fine: $ 35.00 | math: 60, science: 55, english: 48, history: 62
+  S007 | Grace Hopper         | Avg:  98.0 | PASS | Fine: $  0.00 | math: 100, science: 98, english: 95, history: 99
+  S008 | Hank Pym             | Avg:  22.5 | FAIL | Fine: $140.00 | math: 20, science: 15, english: 30, history: 25
+  S009 | Ivy League           | Avg:  71.2 | PASS | Fine: $ 20.00 | math: 70, science: 72, english: 68, history: 75
+  S010 | Jake Blues           | Avg:  45.0 | FAIL | Fine: $ 65.00 | math: 55, science: 40, english: 35, history: 50
+
+──────────────────────────────────────────────────────────────────────────────────────────
+  FAILED STUDENTS  (passing mark: 50)
+──────────────────────────────────────────────────────────────────────────────────────────
+  ⚠ S002 | Bob Smith            | Avg:  43.8 | FAIL | Fine: $ 70.00 | math: 45, science: 38, english: 50, history: 42
+  ⚠ S004 | Diana Prince         | Avg:  32.5 | FAIL | Fine: $ 35.00 | math: 30, science: 25, english: 40, history: 35
+  ⚠ S006 | Frank Castle         | Avg:  56.2 | FAIL | Fine: $ 35.00 | math: 60, science: 55, english: 48, history: 62
+  ⚠ S008 | Hank Pym             | Avg:  22.5 | FAIL | Fine: $140.00 | math: 20, science: 15, english: 30, history: 25
+  ⚠ S010 | Jake Blues           | Avg:  45.0 | FAIL | Fine: $ 65.00 | math: 55, science: 40, english: 35, history: 50
+
+──────────────────────────────────────────────────────────────────────────────────────────
+  LATE SUBMISSION FINES
+──────────────────────────────────────────────────────────────────────────────────────────
+  S001 | Alice Johnson        | Total Fine: $10.00
+      └─ Science HW1: 2 day(s) late → $10.00
+  S002 | Bob Smith            | Total Fine: $70.00
+      └─ Math HW1: 4 day(s) late → $20.00
+      └─ Science HW1: 10 day(s) late → $50.00
+  S003 | Charlie Brown        | Total Fine: $5.00
+      └─ Science HW1: 1 day(s) late → $5.00
+  S004 | Diana Prince         | Total Fine: $35.00
+      └─ Math HW1: 7 day(s) late → $35.00
+  S006 | Frank Castle         | Total Fine: $35.00
+      └─ Math HW1: 2 day(s) late → $10.00
+      └─ Science HW1: 5 day(s) late → $25.00
+  S008 | Hank Pym             | Total Fine: $140.00
+      └─ Math HW1: 13 day(s) late → $65.00
+      └─ Science HW1: 15 day(s) late → $75.00
+  S009 | Ivy League           | Total Fine: $20.00
+      └─ Math HW1: 1 day(s) late → $5.00
+      └─ Science HW1: 3 day(s) late → $15.00
+  S010 | Jake Blues           | Total Fine: $65.00
+      └─ Math HW1: 5 day(s) late → $25.00
+      └─ Science HW1: 8 day(s) late → $40.00
+
+──────────────────────────────────────────────────────────────────────────────────────────
+  VALIDATION ERRORS  (4 record(s) skipped)
+──────────────────────────────────────────────────────────────────────────────────────────
+  ✖ [Validation] Student S011 – name: Name is empty
+  ✖ [Validation] Student S012 – math: Non‑numeric mark 'abc'
+  ✖ [Validation] Student S013 – email: Invalid email ''
+  ✖ [Validation] Student S014 – math: Mark -10 out of 0‑100 range
+
+──────────────────────────────────────────────────────────────────────────────────────────
+  SUMMARY
+──────────────────────────────────────────────────────────────────────────────────────────
+  Total valid records : 10
+  Passed              : 5
+  Failed              : 5
+  Skipped (errors)    : 4
+  Class average       : 62.02
+  Total fines charged : $380.00
+==========================================================================================

@@ -1,0 +1,15 @@
+student_id,name,email,math,science,english,history
+S001,Alice Johnson,alice@uni.edu,85,90,78,92
+S002,Bob Smith,bob@uni.edu,45,38,50,42
+S003,Charlie Brown,charlie@uni.edu,72,65,80,70
+S004,Diana Prince,diana@uni.edu,30,25,40,35
+S005,Eve Davis,eve@uni.edu,95,88,92,97
+S006,Frank Castle,frank@uni.edu,60,55,48,62
+S007,Grace Hopper,grace@uni.edu,100,98,95,99
+S008,Hank Pym,hank@uni.edu,20,15,30,25
+S009,Ivy League,ivy@uni.edu,70,72,68,75
+S010,Jake Blues,jake@uni.edu,55,40,35,50
+S011,,missing@uni.edu,80,70,60,75
+S012,Broken Record,broken@uni.edu,abc,90,85,70
+S013,No Email,,75,80,85,90
+S014,Negative Marks,neg@uni.edu,-10,80,70,60
